@@ -1,3 +1,4 @@
+// Complile this program with the command g++ inter.cpp --std=c++11 
 #include<iostream>
 #include<fstream>
 #include<sstream>

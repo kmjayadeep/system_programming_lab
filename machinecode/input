@@ -1,0 +1,8 @@
+principal = 1000
+interest = 10
+time = 15
+t0 = interest / 100
+t1 = t0 * time
+t2 = 1 + t1
+t3 = principal * t2
+newPrincipal = t3
