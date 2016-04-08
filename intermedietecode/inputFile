@@ -1,0 +1,4 @@
+principal = 1000
+interest = 10
+time = 15
+newPrincipal = principal * ( 1 + interest / 100 * time )
