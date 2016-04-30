@@ -1,2 +1,2 @@
 g++ ff.cpp
-a.out input 
+a.out in 

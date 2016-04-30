@@ -75,10 +75,9 @@ void addFirstSet(string var){
 				addFirstSet(*k);
 				bool repeat = false;
 				for(set<string>::iterator i=elements[*k].first.begin();i!=elements[*k].first.end();i++){
-					if(*k=="e")
+					if(*i=="e")
 						repeat = true;
-					else
-						elements[var].first.insert(*i);
+					elements[var].first.insert(*i);
 				}
 				if(!repeat)
 					break;
