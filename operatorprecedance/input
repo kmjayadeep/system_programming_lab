@@ -1,0 +1,5 @@
+S --> A
+A --> T | A + T | A - T
+T --> F | T * F | T / F
+F --> P | P ^ F
+P --> i | n | ( A )
