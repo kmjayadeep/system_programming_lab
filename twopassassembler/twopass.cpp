@@ -55,6 +55,8 @@ class TextRecord{ public:
 		length = 0;
 	}
 	void push(string t){
+		if(t=="")
+			return;
 		record+="^"+t;
 		length+=t.length();
 	}
