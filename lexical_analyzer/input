@@ -1,5 +1,19 @@
-a = 10
-b = a + 20
-i = i - 2 * 55 - a
-c = a - 10
-print a
+#include<iostream>
+
+using namespace std;
+
+int main(){
+
+	int i;
+	cin>>i;
+	int x=i+2;
+
+	while(x<10){
+		cout<<x;
+		x++;
+	}
+
+	%
+
+	return 0;
+}

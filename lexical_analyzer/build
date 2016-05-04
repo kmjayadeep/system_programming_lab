@@ -1,3 +1,2 @@
-#!/bin/bash
-g++ lex.cpp -std=c++11
+g++ lex.cpp --std=c++11
 a.out input
