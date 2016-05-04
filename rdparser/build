@@ -1,0 +1,2 @@
+g++ rdparser.cpp
+cat input | ./a.out
